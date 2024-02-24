@@ -1,0 +1,24 @@
+body {
+    background: rgb(238, 207, 207); 
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0 auto;
+  }
+
+  page {
+    background: rgb(244, 136, 192);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    position: relative;
+  }
+
+  page[size="A6"] {  
+    width: 21cm;
+    height: 29.7cm; 
+  }
+
+  page{ 
+    size: 21cm 29.7cm;
+    margin: 0mm;
+  }
